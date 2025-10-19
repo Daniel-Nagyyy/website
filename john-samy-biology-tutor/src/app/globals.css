@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1C355E;
+  --navy: #1C355E;
+  --teal: #3AAFA9;
+  --light-teal: #4FD1C7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-teal: var(--teal);
+  --color-light-teal: var(--light-teal);
+  --font-sans: var(--font-inter);
+  --font-poppins: var(--font-poppins);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--teal);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--navy);
+}
