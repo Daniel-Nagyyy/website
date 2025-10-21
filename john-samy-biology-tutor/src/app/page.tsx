@@ -609,9 +609,6 @@ export default function Home() {
                 <a href="https://wa.me/201205292523" className="text-gray-300 hover:text-[#3AAFA9] transition-colors">
                   <FaWhatsapp className="text-2xl" />
                 </a>
-                <a href="#" className="text-gray-300 hover:text-[#3AAFA9] transition-colors">
-                  <FaLinkedin className="text-2xl" />
-                </a>
               </div>
             </div>
           </div>
