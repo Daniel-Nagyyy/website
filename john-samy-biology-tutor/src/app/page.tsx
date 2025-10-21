@@ -134,8 +134,8 @@ export default function Home() {
   };
 
   const testimonials: Testimonial[] = [
-    { name: "Ahmed Hassan", score: "780", exam: "EST2 Biology" },
-    { name: "Fatma Mahmoud", score: "760", exam: "EST2 Biology" },
+    { name: "Mathew David", score: "720", exam: "EST2 Biology" },
+    { name: "Farah George", score: "760", exam: "EST2 Biology" },
     { name: "Youssef Ibrahim", score: "750", exam: "EST2 Biology" }
   ];
 
@@ -250,7 +250,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Join the Course Now
+              Join the Free Sessions Now!
             </motion.button>
             <div className="mt-8">
               <FaArrowDown className="mx-auto text-[#3AAFA9] animate-bounce text-2xl" />
@@ -435,7 +435,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16" data-aos="fade-up">
             <h2 className="font-poppins font-bold text-4xl md:text-5xl text-[#1C355E] mb-6">
-              Join the Course Now 🚀
+              Join the Free Sessions Now 🚀
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
               Ready to master Biology? Fill out the form below and start your journey to exam success.
